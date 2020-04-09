@@ -1,3 +1,1 @@
 # Sakura Project
-
-Main Class - 
