@@ -16,10 +16,10 @@ public interface Incudable {
 	 * */
     public void init(String[] args);
     
-    /**<p>Ñalled when the component starts after initialization</p>*/
+    /**<p>Called when the component starts after initialization</p>*/
 	public void run();
 	
-	/**<p>Ñalled before system shutdown</p>*/
+	/**<p>Called before system shutdown</p>*/
 	public void shutdown();
 	
 }
