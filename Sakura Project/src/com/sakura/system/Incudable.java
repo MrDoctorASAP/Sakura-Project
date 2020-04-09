@@ -10,13 +10,13 @@ package com.sakura.system;
 public interface Incudable {
 	
 	/**
-	 * <b>Initilization</b><br>
-	 * Called before the component starts.
-	 * @param args - arguments to pass to the component
-	 * */
-    public void init(String[] args);
+	* <b>Initilization</b><br>
+	* Called before the component starts.
+	* @param args - arguments to pass to the component
+	* */
+	public void init(String[] args);
     
-    /**<p>Called when the component starts after initialization</p>*/
+        /**<p>Called when the component starts after initialization</p>*/
 	public void run();
 	
 	/**<p>Called before system shutdown</p>*/
